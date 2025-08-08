@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Quote Generator</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+</head>
+
+<body class="text-center bg-light m-5 p-5">
+    <div class="container">
+        <h1 class="mb-5 py-3">Daily AI Quote Generator</h1>
+        <input type="text" id="topicInput" class="form-control" placeholder="Enter a topic (e.g., growth)" />
+        <button onclick="generateQuote()" class="btn btn-outline-primary my-3">Get Quote</button>
+        <button class="btn btn-success" onclick="resetLock()">Reset Quote Lock</button>
+
+
+        <div id="spinner" style="display:none;" class="spinner">
+            <div class="spinner-border text-light" role="status"></div>
+            <p>Loading...</p>
+        </div>
+        <div id="output"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
