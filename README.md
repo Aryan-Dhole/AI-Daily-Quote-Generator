@@ -9,6 +9,10 @@ A smart, minimalistic quote generator powered by **GPT-3.5 via OpenRouter** — 
 2. Keep your key private — do NOT upload it to GitHub or Netlif
 ---
 
+## Preview
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9e4fd875-63a7-48e7-a084-ca542e6d1bd3" />
+
+
 ## ⚙️ Features
 
 - 🔍 AI-generated quotes using GPT-3.5
